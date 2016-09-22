@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		49FD59691D935BB2001A8375 /* ProjectEuler.h in Headers */ = {isa = PBXBuildFile; fileRef = 49FD59671D935BB2001A8375 /* ProjectEuler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49FD59701D93607D001A8375 /* Problem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FD596F1D93607D001A8375 /* Problem1.swift */; };
+		49FD59721D9360E9001A8375 /* Problem 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FD59711D9360E9001A8375 /* Problem 2.swift */; };
+		49FD59741D9361E0001A8375 /* Problem 6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FD59731D9361E0001A8375 /* Problem 6.swift */; };
+		49FD59761D936275001A8375 /* Problem 10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FD59751D936275001A8375 /* Problem 10.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		49FD59641D935BB2001A8375 /* ProjectEuler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ProjectEuler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49FD59671D935BB2001A8375 /* ProjectEuler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProjectEuler.h; sourceTree = "<group>"; };
 		49FD59681D935BB2001A8375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49FD596F1D93607D001A8375 /* Problem1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem1.swift; sourceTree = "<group>"; };
+		49FD59711D9360E9001A8375 /* Problem 2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Problem 2.swift"; sourceTree = "<group>"; };
+		49FD59731D9361E0001A8375 /* Problem 6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Problem 6.swift"; sourceTree = "<group>"; };
+		49FD59751D936275001A8375 /* Problem 10.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Problem 10.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,10 @@
 			isa = PBXGroup;
 			children = (
 				49FD59671D935BB2001A8375 /* ProjectEuler.h */,
+				49FD596F1D93607D001A8375 /* Problem1.swift */,
+				49FD59711D9360E9001A8375 /* Problem 2.swift */,
+				49FD59731D9361E0001A8375 /* Problem 6.swift */,
+				49FD59751D936275001A8375 /* Problem 10.swift */,
 				49FD59681D935BB2001A8375 /* Info.plist */,
 			);
 			path = ProjectEuler;
@@ -95,6 +107,7 @@
 				TargetAttributes = {
 					49FD59631D935BB2001A8375 = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,6 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49FD59741D9361E0001A8375 /* Problem 6.swift in Sources */,
+				49FD59761D936275001A8375 /* Problem 10.swift in Sources */,
+				49FD59701D93607D001A8375 /* Problem1.swift in Sources */,
+				49FD59721D9360E9001A8375 /* Problem 2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +253,7 @@
 		49FD596D1D935BB2001A8375 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -249,6 +267,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = invictus.ProjectEuler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -256,6 +275,7 @@
 		49FD596E1D935BB2001A8375 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
